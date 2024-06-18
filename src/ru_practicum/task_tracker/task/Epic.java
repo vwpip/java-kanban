@@ -8,7 +8,9 @@ public class Epic extends Task {
     public ArrayList<Subtask> getSubtaskList() {
         return subtaskList;
     }
-
+    public void clearSubtasksInEpic() {
+        subtaskList.clear();
+    }
     public void setSubtaskList(ArrayList<Subtask> subtaskList) {
         this.subtaskList = subtaskList;
     }
